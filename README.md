@@ -14,3 +14,6 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+
+![Deliverable 1 Linear Regression](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable1_Linear_Regression.png)
