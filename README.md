@@ -13,23 +13,16 @@ From among the variables show below, it is evident that vehicle length and groun
 
 ## Summary Statistics on Suspension Coils
 
-When analyzing all lots across the entire dataset, variance PSI is 62.29356. This is within the 100 pounds per square inch design specifications. Lot 1 and 2 also fall well under this specification with PSI variances of 0.9795918 and 7.4693878 respectively. Lot 3 however has a variance of 170.2861224, whcih falls outside the required design specifications.   
+When analyzing all lots across the entire dataset, variance PSI is 62.29356. This is within the 100 pounds per square inch design specifications. Lot 1 and 2 also fall well under this specification with PSI variances of 0.9795918 and 7.4693878 respectively. Lot 3 however has a variance of 170.2861224, which falls outside the required design specifications.   
 
 ![Deliverable 2 Total Summary Statistics](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable2_total_summary_df.png)
 
 ![Deliverable 2 Lot Summary Statistics](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable2_lot_summary.png)
 
 ## T-Tests on Suspension Coils
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
+A one sample t-test of all lots is shown below. The p-value of 0.06028 exceeds the 0.05 significance level, which means that there is not enough statistical evidence to reject the null hypothesis. The true mean of the sample is similar to population mean of 1,500 pounds per square inch. 
 ![Deliverable 3 t-test 1](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable3_ttest1.png)
 
+One sample t-tests were also conducted on each of the 3 individual lots. Lot 1 has a true sample mean of 1,500 and a p-value of 1. This clearly indicates that the null hypothesis cannot be rejected. Similarly, lot 2 has a sample mean of 1,500.2 and a p-value of 0.6072. This exceeds the 0.5 significance level, so we once again cannot reject the null hypothesis. Lot 3 however has a p-value of 0.04168, which is below the significant level. The sample mean is 1,496.14. Here we can reject the null hypothesis that concludes the sample and population mean are not statistically different. 
 ![Deliverable 3 t-test 2-4](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable3_ttest2.png)
 
-## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
