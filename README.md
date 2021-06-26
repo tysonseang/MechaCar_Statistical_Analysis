@@ -1,18 +1,14 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-mpg = (6.267)vehicle_length + (0.001245)vehicle_weight + (0.06877)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
+Model: mpg = (6.267)vehicle_length + (0.001245)vehicle_weight + (0.06877)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
 
-From among the variables show below, it is evident that vehicle length and ground clearnce  are statistically likely to provide a non-random amount of variance to mpg values. Vehicle weight, spoiler angle, and all wheel drive (AWD) have p-values that indicate a random amount of variance. The 
-
-Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+From among the variables show below, it is evident that vehicle length and ground clearnce are statistically likely to provide a non-random amount of variance to mpg values. Vehicle weight, spoiler angle, and all wheel drive (AWD) have p-values that indicate a random amount of variance.
 
 ![Deliverable 1 Linear Regression](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable1_Linear_Regression.png)
 
+ The slope of the linear model is not zero, and there is sufficient statistical evidence to reject the null hypothesis. The multiple r-squared value of 0.7149 indicates that the model can predict mpgs of MechaCar prototypes effictvely. Approximately 71% of the model's miles per gallon predictions can be determiend by this model.
+ 
 ![Deliverable 1 Summary Statistics](https://github.com/tysonseang/MechaCar_Statistical_Analysis/blob/main/imagery/Deliverable1_Summary_Statistics.png)
 
 ## Summary Statistics on Suspension Coils
